@@ -1,0 +1,53 @@
+/* other skills section css */
+.img-icon{
+    width: 50px;
+}
+
+.skills-box.card {
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px solid rgba(0, 0, 0, 0.144);
+    box-shadow: 0 0 24px 0 rgba(193, 24, 24, 0.12);
+    text-align: center;
+}
+
+.skills-box:hover {
+    background: #fac5c5;
+    color: darkred;
+}
+
+/* interests and hobbies section css */ 
+.int-hob {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(254, 212, 212, 0.5);
+  transition: background-color 0.3s;
+  padding: 20px;
+  text-align: center;
+}
+
+.int-hob:hover {
+  background: rgba(255, 255, 255, 0.162);
+  color: rgb(0, 0, 0);
+  border: 1px solid darkred;
+}
+
+.int-hob p {
+  margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .int-hob {
+    padding: 10px; /* Reduce padding */
+    flex-direction: column; /* Stack items in a column on smaller screens */
+    text-align: center;
+  }
+
+  .int-hob p {
+    font-size: 14px; /* Reduce font size */
+  }
+}
+
+  
+  
